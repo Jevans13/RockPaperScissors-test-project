@@ -2,7 +2,7 @@
 
 pragma solidity ^0.6.0;
 
-contract RPS {
+contract RockPaperScissors {
     
     mapping (string => mapping(string => int)) payoffMatrix;
     address alice;
